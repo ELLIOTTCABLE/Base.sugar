@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BaseSugar' target in the 'BaseSugar' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
