@@ -39,6 +39,7 @@
 			children = (
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
+				517FF0CF0FEC6E2700EB0B93 /* Espresso Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
 			);
@@ -95,6 +96,13 @@
 				32DBCF630370AF2F00C91783 /* BaseSugar_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		517FF0CF0FEC6E2700EB0B93 /* Espresso Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Espresso Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
