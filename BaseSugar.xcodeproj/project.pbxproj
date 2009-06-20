@@ -53,6 +53,7 @@
 		089C166AFE841209C02AAC07 /* BaseSugar */ = {
 			isa = PBXGroup;
 			children = (
+				517FF2580FEC77A900EB0B93 /* Source Code */,
 				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				517FF0CF0FEC6E2700EB0B93 /* Espresso Resources */,
@@ -120,6 +121,13 @@
 				517FF1CD0FEC706400EB0B93 /* FileActions */,
 			);
 			name = "Espresso Resources";
+			sourceTree = "<group>";
+		};
+		517FF2580FEC77A900EB0B93 /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Source Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
