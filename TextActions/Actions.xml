@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<action-recipes>
+	<action id="name.elliottcable.BaseSugar.TextAction.TextUppercasingAction"
+	  category="name.elliottcable.BaseSugar.TextActionCategory.BaseSugarTextActions">
+		
+		<class>YRBaseSugarTextUppercasingAction</class>
+		<title>Uppercase!</title>
+		
+	</action>
+</action-recipes>

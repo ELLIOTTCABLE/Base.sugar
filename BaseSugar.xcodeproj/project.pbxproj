@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5138443A0FF019DF00B11D48 /* File Actions in Sources */ = {isa = PBXBuildFile; fileRef = 513844320FF019D600B11D48 /* File Actions */; };
 		517FF1D20FEC70E600EB0B93 /* FileActions in Copy Espresso Files */ = {isa = PBXBuildFile; fileRef = 517FF1CD0FEC706400EB0B93 /* FileActions */; };
+		5197FBE40FF026A800AC836B /* TextActions in Copy Espresso Files */ = {isa = PBXBuildFile; fileRef = 5197FBE20FF026A400AC836B /* TextActions */; };
+		5197FC060FF026F400AC836B /* Text Actions in Sources */ = {isa = PBXBuildFile; fileRef = 5197FC040FF026E300AC836B /* Text Actions */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -21,6 +23,7 @@
 			dstSubfolderSpec = 1;
 			files = (
 				517FF1D20FEC70E600EB0B93 /* FileActions in Copy Espresso Files */,
+				5197FBE40FF026A800AC836B /* TextActions in Copy Espresso Files */,
 			);
 			name = "Copy Espresso Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +38,8 @@
 		32DBCF630370AF2F00C91783 /* BaseSugar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSugar_Prefix.pch; sourceTree = "<group>"; };
 		513844320FF019D600B11D48 /* File Actions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "File Actions"; path = "Source Code/File Actions"; sourceTree = "<group>"; };
 		517FF1CD0FEC706400EB0B93 /* FileActions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FileActions; path = ../../FileActions; sourceTree = BUILT_PRODUCTS_DIR; };
+		5197FBE20FF026A400AC836B /* TextActions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TextActions; sourceTree = "<group>"; };
+		5197FC040FF026E300AC836B /* Text Actions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Text Actions"; path = "Source Code/Text Actions"; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* BaseSugar.sugar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseSugar.sugar; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				517FF1CD0FEC706400EB0B93 /* FileActions */,
+				5197FBE20FF026A400AC836B /* TextActions */,
 			);
 			name = "Espresso Resources";
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				513844320FF019D600B11D48 /* File Actions */,
+				5197FC040FF026E300AC836B /* Text Actions */,
 			);
 			name = "Source Code";
 			sourceTree = "<group>";
@@ -189,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5138443A0FF019DF00B11D48 /* File Actions in Sources */,
+				5197FC060FF026F400AC836B /* Text Actions in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

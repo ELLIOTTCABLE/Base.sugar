@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<action-categories>
+	<category id="name.elliottcable.BaseSugar.TextActionCategory.BaseSugarTextActions" show="sub">
+		<title>Base Sugar Actions</title>
+	</category>
+</action-categories>
