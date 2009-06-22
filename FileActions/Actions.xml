@@ -1,4 +1,10 @@
 <?xml version="1.0"?>
 <action-recipes>
-
+  <action id="name.elliottcable.BaseSugar.FileAction.FileTypeDetectingAction"
+    category="name.elliottcable.BaseSugar.FileActionCategory.BaseSugarFileActions">
+    
+    <class>YRBaseSugarFileTypeDetectingAction</class>
+    <title>This will be enabled for any open file</title>
+    
+  </action>
 </action-recipes>

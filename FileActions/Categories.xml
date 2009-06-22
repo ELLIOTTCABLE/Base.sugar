@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <action-categories>
-
+  <category id="name.elliottcable.BaseSugar.FileActionCategory.BaseSugarFileActions" show="sub">
+    <title>Base Sugar file actions</title>
+  </category>
 </action-categories>

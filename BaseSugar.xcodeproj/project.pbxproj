@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5138443A0FF019DF00B11D48 /* File Actions in Sources */ = {isa = PBXBuildFile; fileRef = 513844320FF019D600B11D48 /* File Actions */; };
 		517FF1D20FEC70E600EB0B93 /* FileActions in Copy Espresso Files */ = {isa = PBXBuildFile; fileRef = 517FF1CD0FEC706400EB0B93 /* FileActions */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
@@ -32,6 +33,7 @@
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* BaseSugar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSugar_Prefix.pch; sourceTree = "<group>"; };
+		513844320FF019D600B11D48 /* File Actions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "File Actions"; path = "Source Code/File Actions"; sourceTree = "<group>"; };
 		517FF1CD0FEC706400EB0B93 /* FileActions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FileActions; path = ../../FileActions; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B6048680CD000E48DA /* BaseSugar.sugar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseSugar.sugar; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,16 +128,9 @@
 		517FF2580FEC77A900EB0B93 /* Source Code */ = {
 			isa = PBXGroup;
 			children = (
-				517FF25A0FEC77E100EB0B93 /* File Actions */,
+				513844320FF019D600B11D48 /* File Actions */,
 			);
 			name = "Source Code";
-			sourceTree = "<group>";
-		};
-		517FF25A0FEC77E100EB0B93 /* File Actions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "File Actions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5138443A0FF019DF00B11D48 /* File Actions in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
